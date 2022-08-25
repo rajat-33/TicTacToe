@@ -22,6 +22,8 @@
     "eslint-plugin-react": "^7.31.0",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "saas": "^1.0.0",
+    "sass": "^1.54.5",
     "vite": "^3.0.9"
   },
   "babel": {

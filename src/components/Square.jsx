@@ -3,7 +3,7 @@ import React from "react";
 const Square=(props)=>{
     return (
         <>
-            <button>{props.val}</button>
+            <button className="square">{props.val}</button>
         </>
     )
 }
