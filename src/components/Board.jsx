@@ -2,22 +2,23 @@ import React from "react";
 import Sqaure from "./Square";
 
 const Board=()=>{
+
     return(
         <div className="board">
             <div className="board-row">
-                <Sqaure val={1}/>
-                <Sqaure val={2}/>
-                <Sqaure val={3}/>
+                <Sqaure ind={0}/>
+                <Sqaure ind={1}/>
+                <Sqaure ind={2}/>
             </div>
             <div className="board-row">
-                <Sqaure val={4}/>
-                <Sqaure val={5}/>
-                <Sqaure val={6}/>
+                <Sqaure ind={3}/>
+                <Sqaure ind={4}/>
+                <Sqaure ind={5}/>
             </div>
             <div className="board-row">
-                <Sqaure val={7}/>
-                <Sqaure val={8}/>
-                <Sqaure val={9}/>
+                <Sqaure ind={6}/>
+                <Sqaure ind={7}/>
+                <Sqaure ind={8}/>
             </div>
         </div>
     )

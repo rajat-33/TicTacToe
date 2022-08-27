@@ -45,3 +45,44 @@ button {
         }
     }
 }
+
+.nameBoardDiv{
+    width:100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nameBoard{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.message{
+    height: 10vh;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.resetBtnDiv{
+    height:10vh;
+    display: flex;
+    align-items: center;
+}
+
+.resetBtn{
+    border: 2px solid black;
+    font-family: -webkit-body;
+    font-size: large;
+    padding: 5px 27px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
